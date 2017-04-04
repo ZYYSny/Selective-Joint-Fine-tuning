@@ -57,8 +57,8 @@ If you use these codes and models in your research, please cite:
 
 0. Multi crop testing error on Stanford Dogs 120 (in the same manner with that in [VGG-net](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)):
 
-	model|top-1|top-5
-	:---:|:---:|:---:
+	Method|mean Accuracy
+	:---:|:---:
 	[VGG-16](http://www.vlfeat.org/matconvnet/pretrained/)|[28.5%](http://www.vlfeat.org/matconvnet/pretrained/)|[9.9%](http://www.vlfeat.org/matconvnet/pretrained/)
 	ResNet-50|24.7%|7.8%
 	ResNet-101|23.6%|7.1%
