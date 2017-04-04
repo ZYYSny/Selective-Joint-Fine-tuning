@@ -11,7 +11,6 @@ Department of Computer Science, The University of Hong Kong
 0. [Codes and Installation](#codes-and-installation)
 0. [Models](#models)
 0. [Results](#results)
-0. [Third-party re-implementations](#third-party-re-implementations)
 
 ### Introduction
 
@@ -74,11 +73,41 @@ If you use these codes and models in your research, please cite:
 	Selective Joint FT|90.2%
 	Selective Joint FT with Model Fusion|90.3%
 	
-0. 10-crop validation error on ImageNet (averaging softmax scores of 10 224x224 crops from resized image with shorter side=256), the same as those in the paper:
+0. Multi crop testing error on Oxford Flowers 102 (in the same manner with that in [VGG-net](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)):
 
-	model|top-1|top-5
-	:---:|:---:|:---:
-	ResNet-50|22.9%|6.7%
-	ResNet-101|21.8%|6.1%
-	ResNet-152|21.4%|5.7%
-	
+	Method|mean Accuracy
+	:---:|:---:
+	[MPP](http://ieeexplore.ieee.org/document/7301274/)|91.3%
+	[Multi-model Feature Concat](https://arxiv.org/abs/1406.5774)|91.3%
+	[MagNet](https://arxiv.org/abs/1511.05939)|91.4%
+	[VGG-19 + GoogleNet + AlexNet](https://arxiv.org/abs/1506.02565)|94.5%
+	Target Only Training from Scratch|58.2%
+	Selective Joint Training from Scratch|80.6%
+	Fine-tuning w/o source domain|90.2%
+	Selective Joint FT with all source samples|93.4%
+	Selective Joint FT with random source samples|93.2%
+	Selective Joint FT w/o iterative NN retrieval|94.2%
+	Selective Joint FT with Gabor filter bank|93.8%
+	Selective Joint FT|94.7%
+	Selective Joint FT with Model Fusion|95.8%
+	[VGG-19 + Part Constellation Model](https://arxiv.org/abs/1504.08289)|95.3%
+	Selective Joint FT with val set|97.0%
+
+0. Multi crop testing error on Stanford Dogs 120 (in the same manner with that in [VGG-net](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)):
+
+	Method|mean Accuracy
+	:---:|:---:
+	[HAR-CNN](http://www.linyq.com/hyper-cvpr2015.pdf)|49.4%
+	[Local Alignment](https://link.springer.com/article/10.1007/s11263-014-0741-5)|57.0%
+	[Multi Scale Metric Learning](https://arxiv.org/abs/1402.0453)|70.3%
+	[MagNet](https://arxiv.org/abs/1511.05939)|75.1%
+	[Web Data + Original Data](https://arxiv.org/abs/1511.06789)|85.9%
+	Target Only Training from Scratch|53.8%
+	Selective Joint Training from Scratch|83.4%
+	Fine-tuning w/o source domain|80.4%
+	Selective Joint FT with all source samples|85.6%
+	Selective Joint FT with random source samples|85.5%
+	Selective Joint FT w/o iterative NN retrieval|88.3%
+	Selective Joint FT with Gabor filter bank|87.5%
+	Selective Joint FT|90.2%
+	Selective Joint FT with Model Fusion|90.3%
