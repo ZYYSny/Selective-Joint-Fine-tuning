@@ -56,47 +56,47 @@ If you use these codes and models in your research, please cite:
 
 0. Multi crop testing error on Stanford Dogs 120 (in the same manner with that in [VGG-net](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)):
 
-	Method|mean Accuracy
+	Method|mean Accuracy(%)
 	:---:|:---:
-	[HAR-CNN](http://www.linyq.com/hyper-cvpr2015.pdf)|49.4%
-	[Local Alignment](https://link.springer.com/article/10.1007/s11263-014-0741-5)|57.0%
-	[Multi Scale Metric Learning](https://arxiv.org/abs/1402.0453)|70.3%
-	[MagNet](https://arxiv.org/abs/1511.05939)|75.1%
-	[Web Data + Original Data](https://arxiv.org/abs/1511.06789)|85.9%
-	Target Only Training from Scratch|53.8%
-	Selective Joint Training from Scratch|83.4%
-	Fine-tuning w/o source domain|80.4%
-	Selective Joint FT with all source samples|85.6%
-	Selective Joint FT with random source samples|85.5%
-	Selective Joint FT w/o iterative NN retrieval|88.3%
-	Selective Joint FT with Gabor filter bank|87.5%
-	Selective Joint FT|90.2%
-	Selective Joint FT with Model Fusion|90.3%
+	[HAR-CNN](http://www.linyq.com/hyper-cvpr2015.pdf)|49.4
+	[Local Alignment](https://link.springer.com/article/10.1007/s11263-014-0741-5)|57.0
+	[Multi Scale Metric Learning](https://arxiv.org/abs/1402.0453)|70.3
+	[MagNet](https://arxiv.org/abs/1511.05939)|75.1
+	[Web Data + Original Data](https://arxiv.org/abs/1511.06789)|85.9
+	Target Only Training from Scratch|53.8
+	Selective Joint Training from Scratch|83.4
+	Fine-tuning w/o source domain|80.4
+	Selective Joint FT with all source samples|85.6
+	Selective Joint FT with random source samples|85.5
+	Selective Joint FT w/o iterative NN retrieval|88.3
+	Selective Joint FT with Gabor filter bank|87.5
+	Selective Joint FT|90.2
+	Selective Joint FT with Model Fusion|90.3
 	
 0. Multi crop testing error on Oxford Flowers 102 (in the same manner with that in [VGG-net](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)):
 
-	Method|mean Accuracy
+	Method|mean Accuracy(%)
 	:---:|:---:
-	[MPP](http://ieeexplore.ieee.org/document/7301274/)|91.3%
-	[Multi-model Feature Concat](https://arxiv.org/abs/1406.5774)|91.3%
-	[MagNet](https://arxiv.org/abs/1511.05939)|91.4%
-	[VGG-19 + GoogleNet + AlexNet](https://arxiv.org/abs/1506.02565)|94.5%
-	Target Only Training from Scratch|58.2%
-	Selective Joint Training from Scratch|80.6%
-	Fine-tuning w/o source domain|90.2%
-	Selective Joint FT with all source samples|93.4%
-	Selective Joint FT with random source samples|93.2%
-	Selective Joint FT w/o iterative NN retrieval|94.2%
-	Selective Joint FT with Gabor filter bank|93.8%
-	Selective Joint FT|94.7%
-	Selective Joint FT with Model Fusion|95.8%
-	[VGG-19 + Part Constellation Model](https://arxiv.org/abs/1504.08289)|95.3%
-	Selective Joint FT with val set|97.0%
+	[MPP](http://ieeexplore.ieee.org/document/7301274/)|91.3
+	[Multi-model Feature Concat](https://arxiv.org/abs/1406.5774)|91.3
+	[MagNet](https://arxiv.org/abs/1511.05939)|91.4
+	[VGG-19 + GoogleNet + AlexNet](https://arxiv.org/abs/1506.02565)|94.5
+	Target Only Training from Scratch|58.2
+	Selective Joint Training from Scratch|80.6
+	Fine-tuning w/o source domain|90.2
+	Selective Joint FT with all source samples|93.4
+	Selective Joint FT with random source samples|93.2
+	Selective Joint FT w/o iterative NN retrieval|94.2
+	Selective Joint FT with Gabor filter bank|93.8
+	Selective Joint FT|94.7
+	Selective Joint FT with Model Fusion|95.8
+	[VGG-19 + Part Constellation Model](https://arxiv.org/abs/1504.08289)|95.3
+	Selective Joint FT with val set|97.0
 
-0. Multi crop testing error on Stanford Dogs 120 (in the same manner with that in [VGG-net](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)):
+0. Multi crop testing error on Caltech 256 (in the same manner with that in [VGG-net](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)):
 
-	Method|mean Accuracy
-	:---:|:---:
+	Method|mean Acc(%) 15/class|mean Acc(%) 30/class|mean Acc(%) 45/class|mean Acc(%) 60/class
+	:---:|:---:|:---:|:---:|:---:
 	[HAR-CNN](http://www.linyq.com/hyper-cvpr2015.pdf)|49.4%
 	[Local Alignment](https://link.springer.com/article/10.1007/s11263-014-0741-5)|57.0%
 	[Multi Scale Metric Learning](https://arxiv.org/abs/1402.0453)|70.3%
