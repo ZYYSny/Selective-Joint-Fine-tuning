@@ -34,8 +34,8 @@ If you use these codes and models in your research, please cite:
 	}
 
 ### Pipeline
-0. Curves on ImageNet (solid lines: 1-crop val error; dashed lines: training error):
-	![Selective Joint Fine-tuning](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/cvpr2017_img1.png)
+0. Pipeline of the proposed selective joint fine-tuning:
+	![Selective Joint Fine-tuning Pipeline](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/cvpr2017_img1.png)
 
 
 ### Codes and Installation
