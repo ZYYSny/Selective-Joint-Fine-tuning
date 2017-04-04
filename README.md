@@ -35,7 +35,7 @@ If you use these codes and models in your research, please cite:
 
 ### Pipeline
 0. Curves on ImageNet (solid lines: 1-crop val error; dashed lines: training error):
-	![Training curves](https://cloud.githubusercontent.com/assets/11435359/13046277/e904c04c-d412-11e5-9260-efc5b8301e2f.jpg)
+	![Selective Joint Fine-tuning]()
 
 
 ### Codes and Installation
