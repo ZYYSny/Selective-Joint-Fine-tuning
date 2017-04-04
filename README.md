@@ -47,13 +47,12 @@ If you use these codes and models in your research, please cite:
 	- [Selective Joint Fine-tuning: ResNet-152] (http://ethereon.github.io/netscope/#/gist/8bdda026e3391eacfa43cc24f4f4a9ff)
 
 0. Model files:
-	- ResNet 152 pretrained on ImageNet ILSVRC 2012: [link](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777)
-	- ResNet 152 pretrained on Places 205: [link](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777)
-	- Stanford Dogs 120: [link](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777)
-	      - Stanford Dogs 120: [link](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777)
-	- Oxford Flowers 102: [link](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777)
-	- Caltech 256: [link](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777)
-	- Mit Indoor 67: [link](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777)
+	- ResNet 152 pretrained on ImageNet ILSVRC 2012: [training and testing deploy](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108),[model](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108).
+	- ResNet 152 pretrained on Places 205: [training and testing deploy](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108),[model](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108).
+	- Stanford Dogs 120: [training and testing deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff),[model](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108).
+	- Oxford Flowers 102: [training and testing deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff),[model](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108).
+	- Caltech 256: [training and testing deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff),[model](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108).
+	- Mit Indoor 67: [training and testing deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff),[model](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108).
 
 ### Results
 
