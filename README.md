@@ -1,4 +1,4 @@
-# Selective-Joint-Fine-tuning
+# Selective Joint Fine-tuning
 
 By [Weifeng Ge], [Yizhou Yu](http://i.cs.hku.hk/~yzyu/)
 
