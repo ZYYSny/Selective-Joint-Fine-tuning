@@ -68,7 +68,11 @@ If you use these codes and models in your research, please cite:
 	Selective Joint Training from Scratch|83.4%
 	Fine-tuning w/o source domain|80.4%
 	Selective Joint FT with all source samples|85.6%
-	
+	Selective Joint FT with random source samples|85.5%
+	Selective Joint FT w/o iterative NN retrieval|88.3%
+	Selective Joint FT with Gabor filter bank|87.5%
+	Selective Joint FT|90.2%
+	Selective Joint FT with Model Fusion|90.3%
 	
 0. 10-crop validation error on ImageNet (averaging softmax scores of 10 224x224 crops from resized image with shorter side=256), the same as those in the paper:
 
