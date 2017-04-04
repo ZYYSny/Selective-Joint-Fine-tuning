@@ -97,7 +97,7 @@ If you use these codes and models in your research, please cite:
 
 	Method|mean Acc(%) 15/class|mean Acc(%) 30/class|mean Acc(%) 45/class|mean Acc(%) 60/class
 	:---:|:---:|:---:|:---:|:---:
-	[M-HMP](http://www.linyq.com/hyper-cvpr2015.pdf)|40.5+-0.4 
+	[M-HMP](http://www.linyq.com/hyper-cvpr2015.pdf)|40.5±0.4 
 	[Local Alignment](https://link.springer.com/article/10.1007/s11263-014-0741-5)|57.0%
 	[Multi Scale Metric Learning](https://arxiv.org/abs/1402.0453)|70.3%
 	[MagNet](https://arxiv.org/abs/1511.05939)|75.1%
