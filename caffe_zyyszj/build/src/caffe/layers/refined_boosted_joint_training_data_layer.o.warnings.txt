@@ -1,0 +1,28 @@
+src/caffe/layers/refined_boosted_joint_training_data_layer.cpp: In instantiation of ‘void caffe::RefinedBoostedJointTrainingDataLayer<Dtype>::DataLayerSetUp(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = float]’:
+src/caffe/layers/refined_boosted_joint_training_data_layer.cpp:450:1:   required from here
+src/caffe/layers/refined_boosted_joint_training_data_layer.cpp:284:21: error: ‘class caffe::RefinedBoostedJointTrainingDataLayer<float>’ has no member named ‘PREFETCH_COUNT’
+   for (int i = 0; i < this->PREFETCH_COUNT; ++i) {
+                     ^
+src/caffe/layers/refined_boosted_joint_training_data_layer.cpp:285:5: error: ‘__gnu_cxx::__alloc_traits<std::allocator<boost::shared_ptr<caffe::Batch<float> > > >::value_type’ has no member named ‘data_’
+     this->prefetch_[i].data_.Reshape(top_shape);
+     ^
+src/caffe/layers/refined_boosted_joint_training_data_layer.cpp:295:21: error: ‘class caffe::RefinedBoostedJointTrainingDataLayer<float>’ has no member named ‘PREFETCH_COUNT’
+   for (int i = 0; i < this->PREFETCH_COUNT; ++i) {
+                     ^
+src/caffe/layers/refined_boosted_joint_training_data_layer.cpp:296:5: error: ‘__gnu_cxx::__alloc_traits<std::allocator<boost::shared_ptr<caffe::Batch<float> > > >::value_type’ has no member named ‘label_’
+     this->prefetch_[i].label_.Reshape(label_shape);
+     ^
+src/caffe/layers/refined_boosted_joint_training_data_layer.cpp: In instantiation of ‘void caffe::RefinedBoostedJointTrainingDataLayer<Dtype>::DataLayerSetUp(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = double]’:
+src/caffe/layers/refined_boosted_joint_training_data_layer.cpp:450:1:   required from here
+src/caffe/layers/refined_boosted_joint_training_data_layer.cpp:284:21: error: ‘class caffe::RefinedBoostedJointTrainingDataLayer<double>’ has no member named ‘PREFETCH_COUNT’
+   for (int i = 0; i < this->PREFETCH_COUNT; ++i) {
+                     ^
+src/caffe/layers/refined_boosted_joint_training_data_layer.cpp:285:5: error: ‘__gnu_cxx::__alloc_traits<std::allocator<boost::shared_ptr<caffe::Batch<double> > > >::value_type’ has no member named ‘data_’
+     this->prefetch_[i].data_.Reshape(top_shape);
+     ^
+src/caffe/layers/refined_boosted_joint_training_data_layer.cpp:295:21: error: ‘class caffe::RefinedBoostedJointTrainingDataLayer<double>’ has no member named ‘PREFETCH_COUNT’
+   for (int i = 0; i < this->PREFETCH_COUNT; ++i) {
+                     ^
+src/caffe/layers/refined_boosted_joint_training_data_layer.cpp:296:5: error: ‘__gnu_cxx::__alloc_traits<std::allocator<boost::shared_ptr<caffe::Batch<double> > > >::value_type’ has no member named ‘label_’
+     this->prefetch_[i].label_.Reshape(label_shape);
+     ^
