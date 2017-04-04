@@ -25,6 +25,13 @@ This repository contains the codes and models described in the paper "Borrowing 
 
 If you use these codes and models in your research, please cite:
 
+
+	@article{He2015,
+		author = {Kaiming He and Xiangyu Zhang and Shaoqing Ren and Jian Sun},
+		title = {Deep Residual Learning for Image Recognition},
+		journal = {arXiv preprint arXiv:1512.03385},
+		year = {2015}
+	}
   @article{ge2017borrowing,
     title={Borrowing Treasures from the Wealthy: Deep Transfer Learning through Selective Joint Fine-tuning},
     author={Ge, Weifeng and Yu, Yizhou},
