@@ -2,7 +2,7 @@
 
 By [Weifeng Ge], [Yizhou Yu](http://i.cs.hku.hk/~yzyu/)
 
-The University of Hong Kong
+Department of Computer Science, The University of Hong Kong
 
 ### Table of Contents
 0. [Introduction](#introduction)
