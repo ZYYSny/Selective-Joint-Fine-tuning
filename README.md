@@ -21,10 +21,13 @@ This repository contains the codes and models described in the paper "Borrowing 
 0. All algorithms are implemented based on the deep learning framework [Caffe](https://github.com/BVLC/caffe).
 0. Please add the additional layers used into your own Caffe to run the training codes.
 
-1. CVPR 2017 Spotlight Paper
-* **Title**: Borrowing Treasures from the Wealthy: Deep Transfer Learning through Selective Joint Fine-tuning
-* **Authors**: Weifeng Ge, Yizhou Yu
-* **Link**: https://arxiv.org/abs/1702.08690
-* **Tags**: Selective Joint Fine-tuning, Deep Transfer Learning, Convolutional Neural Networks
-* **Year**: 2017
-2. Codes
+### Citation
+
+If you use these codes and models in your research, please cite:
+
+  @article{ge2017borrowing,
+    title={Borrowing Treasures from the Wealthy: Deep Transfer Learning through Selective Joint Fine-tuning},
+    author={Ge, Weifeng and Yu, Yizhou},
+    journal={arXiv preprint arXiv:1702.08690},
+    year={2017}
+  }
