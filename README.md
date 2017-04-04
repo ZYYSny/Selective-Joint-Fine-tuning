@@ -7,6 +7,7 @@ Department of Computer Science, The University of Hong Kong
 ### Table of Contents
 0. [Introduction](#introduction)
 0. [Citation](#citation)
+0. [Pipeline](#pipeline)
 0. [Codes and Installation](#codes-and-installation)
 0. [Models](#models)
 0. [Results](#results)
@@ -31,6 +32,11 @@ If you use these codes and models in your research, please cite:
 		journal = {arXiv preprint arXiv:1702.08690},
 		year = {2017}
 	}
+
+### Pipeline
+0. Curves on ImageNet (solid lines: 1-crop val error; dashed lines: training error):
+	![Training curves](https://cloud.githubusercontent.com/assets/11435359/13046277/e904c04c-d412-11e5-9260-efc5b8301e2f.jpg)
+
 
 ### Codes and Installation
 
