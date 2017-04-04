@@ -49,7 +49,7 @@ If you use these codes and models in your research, please cite:
 
 ### Results
 
-0. Multi crop testing error on Stanford Dogs 120 (in the same manner with that in VGG-net: [link](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)):
+0. Multi crop testing error on Stanford Dogs 120 (in the same manner with that in [VGG-net](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)):
 
 	model|top-1|top-5
 	:---:|:---:|:---:
