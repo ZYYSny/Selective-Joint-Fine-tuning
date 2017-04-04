@@ -7,7 +7,7 @@ Department of Computer Science, The University of Hong Kong
 ### Table of Contents
 0. [Introduction](#introduction)
 0. [Citation](#citation)
-0. [Disclaimer and known issues](#disclaimer-and-known-issues)
+0. [Codes and Installation](#codes-and-installation)
 0. [Models](#models)
 0. [Results](#results)
 0. [Third-party re-implementations](#third-party-re-implementations)
