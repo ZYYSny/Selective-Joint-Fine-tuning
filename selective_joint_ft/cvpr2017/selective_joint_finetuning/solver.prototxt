@@ -1,0 +1,30 @@
+# The train/test net protocol buffer definition
+net: "examples/cvpr2017/mit67/joint_training_with_selected_samples/first_round/deploy.prototxt"
+# batch num in each group
+# test_iter specifies how many forward passes the test should carry out.
+# In the case of MNIST, we have test batch size 100 and 100 test iterations,
+# covering the full 10,000 testing images.
+test_iter: 2680
+# Carry out testing every 500 training iterations.
+test_interval: 500
+test_initialization: false
+iter_size: 10
+# The base learning rate, momentum and the weight decay of the network.
+base_lr: 0.01
+momentum: 0.9
+weight_decay: 0.0001
+# The learning rate policy
+lr_policy: "step"
+stepsize: 4000
+gamma: 0.1
+# Display every 100 iterations
+average_loss: 10
+display: 1
+# The maximum number of iterations
+max_iter: 20000
+# snapshot intermediate results
+snapshot: 500
+snapshot_prefix: "examples/cvpr2017/mit67/joint_training_with_selected_samples/first_round/snapshot/identity_mapping_resnet152_mit67_joint_training_first_round"
+# solver mode: CPU or GPU
+solver_mode: GPU
+debug_info: false
