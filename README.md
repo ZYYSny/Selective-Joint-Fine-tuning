@@ -102,12 +102,5 @@ If you use these codes and models in your research, please cite:
 	[VGG-19](https://arxiv.org/abs/1402.0453)|-|-|-|85.1 ± 0.3
 	[VGG-19 + GoogleNet + AlexNet](https://arxiv.org/abs/1506.02565)|-|-|-|86.1
 	[VGG-19 + VGG-16](https://arxiv.org/abs/1511.06789)|-|-|-|86.2 ± 0.3
-	Target Only Training from Scratch|53.8%
-	Selective Joint Training from Scratch|83.4%
-	Fine-tuning w/o source domain|80.4%
-	Selective Joint FT with all source samples|85.6%
-	Selective Joint FT with random source samples|85.5%
-	Selective Joint FT w/o iterative NN retrieval|88.3%
-	Selective Joint FT with Gabor filter bank|87.5%
-	Selective Joint FT|90.2%
-	Selective Joint FT with Model Fusion|90.3%
+	Fine-tuning w/o source domain|76.4 ± 0.1|81.2 ± 0.2|83.5 ± 0.2|86.4 ± 0.3
+	Selective Joint FT|80.5 ± 0.3|83.8 ± 0.5|87.0 ± 0.1|89.1 ± 0.2
