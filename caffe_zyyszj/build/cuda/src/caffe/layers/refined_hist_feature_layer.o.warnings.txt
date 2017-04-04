@@ -1,0 +1,32 @@
+src/caffe/layers/refined_hist_feature_layer.cu(162): warning: variable "count_idx" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(184): warning: variable "hist_forward_iter" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(162): warning: variable "count_idx" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(184): warning: variable "hist_forward_iter" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(162): warning: variable "count_idx" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(184): warning: variable "hist_forward_iter" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(162): warning: variable "count_idx" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(184): warning: variable "hist_forward_iter" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(162): warning: variable "count_idx" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(184): warning: variable "hist_forward_iter" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(162): warning: variable "count_idx" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(184): warning: variable "hist_forward_iter" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(162): warning: variable "count_idx" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(184): warning: variable "hist_forward_iter" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(162): warning: variable "count_idx" was declared but never referenced
+
+src/caffe/layers/refined_hist_feature_layer.cu(184): warning: variable "hist_forward_iter" was declared but never referenced
+
