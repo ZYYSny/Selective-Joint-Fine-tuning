@@ -19,7 +19,7 @@ This repository contains the codes and models described in the paper "Borrowing 
 **Note**
 
 0. All algorithms are implemented based on the deep learning framework [Caffe](https://github.com/BVLC/caffe).
-0. Code of improved **1K-layer ResNets** with 4.62% test error on CIFAR-10 in our new arXiv paper: https://github.com/KaimingHe/resnet-1k-layers
+0. Please add the additional layers used into your own Caffe to run the training codes.
 
 1. CVPR 2017 Spotlight Paper
 * **Title**: Borrowing Treasures from the Wealthy: Deep Transfer Learning through Selective Joint Fine-tuning
