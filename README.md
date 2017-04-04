@@ -31,3 +31,38 @@ If you use these codes and models in your research, please cite:
 		journal = {arXiv preprint arXiv:1702.08690},
 		year = {2017}
 	}
+
+### Codes and Installation
+
+
+
+### Models
+
+0. Visualizations of network structures (tools from [ethereon](http://ethereon.github.io/netscope/quickstart.html)):
+	- [Selective Joint Fine-tuning: ResNet-152] (http://ethereon.github.io/netscope/#/gist/d38f3e6091952b45198b)
+
+0. Model files:
+	- ~~MSR download: [link] (http://research.microsoft.com/en-us/um/people/kahe/resnet/models.zip)~~
+	- OneDrive download: [link](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777)
+
+### Results
+0. Curves on ImageNet (solid lines: 1-crop val error; dashed lines: training error):
+	![Training curves](https://cloud.githubusercontent.com/assets/11435359/13046277/e904c04c-d412-11e5-9260-efc5b8301e2f.jpg)
+
+0. 1-crop validation error on ImageNet (center 224x224 crop from resized image with shorter side=256):
+
+	model|top-1|top-5
+	:---:|:---:|:---:
+	[VGG-16](http://www.vlfeat.org/matconvnet/pretrained/)|[28.5%](http://www.vlfeat.org/matconvnet/pretrained/)|[9.9%](http://www.vlfeat.org/matconvnet/pretrained/)
+	ResNet-50|24.7%|7.8%
+	ResNet-101|23.6%|7.1%
+	ResNet-152|23.0%|6.7%
+	
+0. 10-crop validation error on ImageNet (averaging softmax scores of 10 224x224 crops from resized image with shorter side=256), the same as those in the paper:
+
+	model|top-1|top-5
+	:---:|:---:|:---:
+	ResNet-50|22.9%|6.7%
+	ResNet-101|21.8%|6.1%
+	ResNet-152|21.4%|5.7%
+	
