@@ -59,7 +59,7 @@ If you use these codes and models in your research, please cite:
 
 	Method|mean Accuracy
 	:---:|:---:
-	[VGG-16](http://www.vlfeat.org/matconvnet/pretrained/)|[28.5%](http://www.vlfeat.org/matconvnet/pretrained/)|[9.9%](http://www.vlfeat.org/matconvnet/pretrained/)
+	[HAR-CNN](http://www.linyq.com/hyper-cvpr2015.pdf)|49.4%
 	ResNet-50|24.7%|7.8%
 	ResNet-101|23.6%|7.1%
 	ResNet-152|23.0%|6.7%
