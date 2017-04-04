@@ -18,7 +18,7 @@ This repository contains the codes and models described in the paper "Borrowing 
 
 **Note**
 
-0. Re-implementations with **training code** and models from Facebook AI Research (FAIR): [blog](http://torch.ch/blog/2016/02/04/resnets.html), [code](https://github.com/facebook/fb.resnet.torch)
+0. All algorithms are implemented based on the deep learning framework [Caffe](https://github.com/BVLC/caffe).
 0. Code of improved **1K-layer ResNets** with 4.62% test error on CIFAR-10 in our new arXiv paper: https://github.com/KaimingHe/resnet-1k-layers
 
 1. CVPR 2017 Spotlight Paper
