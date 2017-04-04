@@ -60,9 +60,11 @@ If you use these codes and models in your research, please cite:
 	Method|mean Accuracy
 	:---:|:---:
 	[HAR-CNN](http://www.linyq.com/hyper-cvpr2015.pdf)|49.4%
-	ResNet-50|24.7%|7.8%
-	ResNet-101|23.6%|7.1%
-	ResNet-152|23.0%|6.7%
+	[Local Alignment](https://link.springer.com/article/10.1007/s11263-014-0741-5)|57%
+	[Multi Scale Metric Learning](https://arxiv.org/abs/1402.0453)|70.3%
+	[MagNet](https://arxiv.org/abs/1511.05939)|75.1%
+	[Web Data + Original Data](https://arxiv.org/abs/1511.06789)|85.9%
+	
 	
 0. 10-crop validation error on ImageNet (averaging softmax scores of 10 224x224 crops from resized image with shorter side=256), the same as those in the paper:
 
