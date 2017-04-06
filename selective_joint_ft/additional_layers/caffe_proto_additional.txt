@@ -1,0 +1,65 @@
+//added by Weifeng Ge for the CVPR 2017 spotlight paper "Borrowing Treasures from 
+//the Wealth: Deep Transfer Learning through Selective Joint Fine-tuning"
+//FeatureStatisticsParameter, KnnMatchParameter, BoostedJointTrainingDataParameter,
+//HistFeatureParameter, SplitDataParameter and RandomCropDataParameter are added.
+
+message FeatureStatisticsParameter {
+  optional string feature_statistics_path = 1;
+  optional int32 scales = 2[default=4];
+  optional int32 total_channels = 7;
+  repeated int32 num = 3;
+  repeated int32 channels = 4;
+  repeated int32 height = 5;
+  repeated int32 width = 6;
+  optional int32 saving_signal = 8[default=1000];
+  optional string previous_statistics_path = 9;
+  optional string new_feature_statistics_path = 10;
+  optional int32 bin = 11[default = 100];
+}
+message KnnMatchParameter {
+  optional int32 sample_num = 1[default=100000];
+  optional int32 dim = 2[default=1536];
+  optional int32 nodes_num = 3[default=100];
+  optional int32 orientation = 4[default=6];
+  optional int32 scale = 5[default=4];
+  optional int32 bin = 6[default=32];
+  optional string feature_path = 7;
+  optional string image_retrieval_result = 8;
+  optional int32 iterations = 9[default=100000];
+  optional string channel_weight_path = 10;
+  optional int32 feature_num = 11[default=100000];
+}
+message BoostedJointTrainingDataParameter {
+  optional string source_domain_image_label_path = 1;
+  optional string target_domain_image_label_path = 2;
+  optional int32 source_domain_sample_num = 3[default=200000];
+  optional int32 source_domain_class_num = 4[default=1000];
+  optional int32 target_domain_sample_num = 5[default=2040];
+  optional int32 target_domain_class_num = 6[default=102];
+  optional string target_domain_sample_weight_path = 7;
+  optional string target_nn_configuration_path = 8;
+  optional int32 target_domain_train_num = 9[default=1020];
+  optional int32 target_domain_val_num = 10[default=1020];
+  optional int32 target_nn_in_source_num = 11[default=5000];
+  optional int32 base_selected_nn_num = 12[default=1000];
+  optional string target_val_label_path = 13;
+  optional int32 target_domain_train_val_num = 14[default=2040];
+  optional int32 highest_sample_level = 15[default=5];
+  optional int32 least_sample_per_class = 16[default=50];
+}
+message HistFeatureParameter {
+  optional string feature_statistics_path = 1;
+  optional int32 scales = 2[default=4];
+  optional int32 total_channels = 3;
+  optional int32 bin = 4[default=32];
+  optional string feature_path = 5;
+  repeated double channel_weight =6;
+  optional string channel_weight_path = 7;
+}
+message SplitDataParameter {
+  optional int32 split_num = 1[default=100];
+}
+message RandomCropDataParameter {
+  optional float lower_bound = 1 [default = 256];
+  optional float upper_bound = 2 [default = 480];
+}
