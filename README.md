@@ -49,12 +49,12 @@ If you use these codes and models in your research, please cite:
 	- [Residual](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/residual_layer.hpp)
 
 0. Image Retrieval:
-	- [get the features statistics](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
-	- [extract histogram features](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
-	- [online nearest neighbor searching](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
+	- [get the features statistics](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/tree/master/selective_joint_ft/image_retrieval/feature_stats)
+	- [extract histogram features](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/tree/master/selective_joint_ft/image_retrieval/feature_extraction)
+	- [online nearest neighbor searching](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/tree/master/selective_joint_ft/image_retrieval/knn_searching)
 	
 0. Selective Joint Fine-tuning:
-	- [joint fine-tuning](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
+	- [joint fine-tuning](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/tree/master/selective_joint_ft/joint_training)
 
 ### Models
 
