@@ -39,6 +39,7 @@ If you use these codes and models in your research, please cite:
 
 ### Codes and Installation
 0. Add new layers into Caffe 
+        - [caffe.proto] (http://ethereon.github.io/netscope/#/gist/8bdda026e3391eacfa43cc24f4f4a9ff)
 
 
 
