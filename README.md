@@ -119,5 +119,5 @@ If you use these codes and models in your research, please cite:
 	Fine-tuning w/o source domain|81.7
 	Selective Joint FT with ImageNet|82.8
 	Selective Joint FT with Places|85.8
-	Selective Joint FT w/o hybrid data|85.5
+	Selective Joint FT with hybrid data|85.5
 	Average the output of Places and hybrid data|86.9
