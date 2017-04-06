@@ -40,9 +40,13 @@ If you use these codes and models in your research, please cite:
 ### Codes and Installation
 0. Add new layers into Caffe:
 	- [caffe.proto](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
-	
-
-
+	- [MergeData](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
+	- [SplitData](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
+	- [RandomCropBoostedData](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
+        - [FeatureStatistics](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
+        - [NormalKnnMatch](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
+        - [RefinedHistFeature](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
+        - [Residual](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
 
 ### Models
 
