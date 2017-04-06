@@ -1,0 +1,20 @@
+net: "examples/cvpr2017/mit67/image_retrieval/knn_searching/nn_search_deploy.prototxt"
+test_iter: 1000
+test_interval: 5000000
+test_initialization: false
+test_compute_loss: true
+iter_size: 1
+average_loss: 10
+base_lr: 0.0000
+lr_policy: "step"
+gamma: 0.96
+stepsize: 100000000
+display: 1
+max_iter: 1000000
+weight_decay: 0.0000
+snapshot: 10000000
+snapshot_prefix: "examples/cvpr2017/mit67/image_retrieval/knn_searching/mit67_alexnet_conv11_5_image_retrieval"
+momentum: 0.9
+# solver mode: CPU or GPU
+solver_mode: GPU
+debug_info: false
