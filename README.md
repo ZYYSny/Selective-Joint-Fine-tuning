@@ -47,12 +47,12 @@ If you use these codes and models in your research, please cite:
 	- [Selective Joint Fine-tuning: ResNet-152] (http://ethereon.github.io/netscope/#/gist/8bdda026e3391eacfa43cc24f4f4a9ff)
 
 0. Model files:
-	- ResNet 152 Net pretrained on ImageNet ILSVRC 2012: [deploy](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108),  [model](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108).
-	- ResNet 152 Net pretrained on Places 205: [deploy](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108), [model](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108).
-	- Stanford Dogs 120: [deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff), [model](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108).
-	- Oxford Flowers 102: [deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff), [model](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108).
-	- Caltech 256: [deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff), [model](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108).
-	- Mit Indoor 67: [deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff), [model](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108).
+	- ResNet 152 Net pretrained on ImageNet ILSVRC 2012: [deploy](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108),  [model](https://drive.google.com/drive/folders/0B3sl2RWJv33ZRTNyRkdkNzBnRVU).
+	- ResNet 152 Net pretrained on Places 205: [deploy](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108), [model](https://drive.google.com/drive/folders/0B3sl2RWJv33ZRTNyRkdkNzBnRVU).
+	- Stanford Dogs 120: [deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff), [model](https://drive.google.com/drive/folders/0B3sl2RWJv33ZR1ZkazQxWEZ2TGc).
+	- Oxford Flowers 102: [deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff), [model](https://drive.google.com/drive/folders/0B3sl2RWJv33ZdGp4dXk2RUpXNG8).
+	- Caltech 256: [deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff), [model](https://drive.google.com/drive/folders/0B3sl2RWJv33ZSjZSSFVmQ3R0TDA).
+	- Mit Indoor 67: [deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff), [model](https://drive.google.com/drive/folders/0B3sl2RWJv33ZWUFwNk1wMnZhaTg).
 
 ### Results
 
