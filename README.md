@@ -4,6 +4,8 @@ By [Weifeng Ge], [Yizhou Yu](http://i.cs.hku.hk/~yzyu/)
 
 Department of Computer Science, The University of Hong Kong
 
+Email: weifeng.ge.ic at gmail.com, yizhouy at acm.org 
+
 ### Table of Contents
 0. [Introduction](#introduction)
 0. [Citation](#citation)
