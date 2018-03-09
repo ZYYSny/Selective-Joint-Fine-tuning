@@ -25,12 +25,14 @@ This repository contains the codes and models described in the paper "Borrowing 
 
 If you use these codes and models in your research, please cite:
 
-	@article{ge2017borrowing,
-	        title = {Borrowing Treasures from the Wealthy: Deep Transfer Learning through Selective Joint Fine-tuning},
-		author = {Ge, Weifeng and Yu, Yizhou},
-		journal = {arXiv preprint arXiv:1702.08690},
-		year = {2017}
-	}
+@InProceedings{Ge_2017_CVPR,
+author = {Ge, Weifeng and Yu, Yizhou},
+title = {Borrowing Treasures From the Wealthy: Deep Transfer Learning Through Selective Joint Fine-Tuning},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {July},
+year = {2017}
+}
+
 
 ### Pipeline
 0. Pipeline of the proposed selective joint fine-tuning:
