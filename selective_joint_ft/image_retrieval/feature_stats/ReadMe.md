@@ -39,8 +39,10 @@ The codes are not maintained for a long time. I will update the codes and make t
 
 3. [Some flaws in programming] Since these codes are not maintained, there are some flaws during usages. In the first step, we only want to get "caltech_alexnet_color_feature_stats.txt". We need to built some fake files like the format of "caltech_alexnet_color_feature_stats.txt". In the second step, we just rename "caltech_alexnet_color_feature_stats.txt" as "caltech_alexnet_color_feature_stats_previous.txt", then we finally get the bounds for every bin "caltech_alexnet_color_feature_stats_domain.txt".
 
- Format of  "caltech_alexnet_color_feature_stats.txt"
-   #The total input feature map groups | #The index of feature map groups | #Feature channels in current group | #Feature map index in current group | #Feature dim in every feature map | #Lower bound | #Upper bound
+ Format of  "caltech_alexnet_color_feature_stats.txt"  
+ 
+   #The total input feature map groups | #The index of feature map groups | #Feature channels in current group | #Feature map index in current group | #Feature dim in every feature map | #Lower bound | #Upper bound  
+   
 5	0	96	0	2916	-836.118	837.892	
 5	0	96	1	2916	-3269.48	3340.07	
 5	0	96	2	2916	-1012.25	1074.28	
