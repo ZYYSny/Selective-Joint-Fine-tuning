@@ -7,7 +7,7 @@ Department of Computer Science, The University of Hong Kong
 
 The codes are not maintained for a long time. I will update the codes and make the nearest neighbor search more each using python.
 
-1. Since we need to build histograms, so we need to know the value range of each channel in deep feature maps. Then you need to first run the ./get_the_stats_of_features.sh on ImageNet at first. You may edit the stats_deploy.prototxt like this.
+1. Since we need to build histograms, so we need to know the value range of each channel in deep feature maps. Then you need to first run the ./get_the_stats_of_features.sh on your own dataset at first. You may edit the stats_deploy.prototxt like this.
 
        layer {
             name: "feature_stats"
